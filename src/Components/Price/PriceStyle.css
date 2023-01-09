@@ -1,0 +1,89 @@
+.container-price{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.box{
+    width: 400px;
+    height: 530px;
+    margin: 10px;
+    /* background-color: cadetblue; */
+}
+.ajmansharjha,.priceone{
+    color: blue;
+    padding: 10px;
+}
+.p1p2{
+    color: #525ded;
+    padding: 4px;
+}
+.headingsame{
+    color: blue;
+    padding: 5px;
+}
+.p1button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  
+  .p2button {
+    width: 220px;
+    background-color: white; 
+    color:blue; 
+    border: 2px solid #008CBA;
+  }
+
+  .namerak{
+    color: white;
+    padding: 9px;
+  }
+  .rakp{
+    color: white;
+    padding: 4px;
+  }
+
+  .rakbutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  
+  .rakbutton1 {
+    width: 220px;
+    background-color: white; 
+    color:blue; 
+   
+  }
+.box-second{
+    background-color: blue;
+}
+.secimg{
+    background-color: white;
+    border-radius: 50%;
+}
+.heading-price{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}

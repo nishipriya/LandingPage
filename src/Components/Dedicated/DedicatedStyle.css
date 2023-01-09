@@ -1,0 +1,48 @@
+.container-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    
+}
+.h4-text{
+    color: blue;
+    font-size: 17px;
+    font-style:initial;
+}
+.video-image{
+  border-radius: 50%;
+  border: 2px solid blue;
+  padding: 3px; 
+  width: 35px;
+  height: 30px; 
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.h3-text{
+    font-size: 30px;
+    font-style: initial;
+}
+.dedicated-1{
+    /* text-decoration: underline;
+    text-decoration-color: red; */
+    border-bottom: 5px solid red;
+}
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.pragraph-1{
+    color:#adadad;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: initial;
+}

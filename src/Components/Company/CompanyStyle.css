@@ -1,0 +1,53 @@
+.cards-container {
+    column-count: 2;
+    margin-left: 160px;
+    margin-right: 20px;
+    margin-top: -280px;
+  }
+  .cards-container div {
+     margin: 10px 0;
+  
+     -webkit-column-break-inside: avoid;
+     page-break-inside: avoid;
+     break-inside: avoid;
+  }
+  .cards-container div:first-child {
+      margin: 20;
+  }
+
+  .left_section{
+    width: 300px;
+}
+.pragraph-company{
+    color: #747474;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Learn-1{
+    color: #525ded;
+}
+
+.right_section{
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.left-pragaph{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: initial;
+    margin-bottom: 10px;
+}
+  
+@media (max-width: 700px){
+    .cards-container {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .left_section,.right_section{
+        width: 100%;
+    }
+}
